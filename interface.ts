@@ -22,3 +22,5 @@ namespace Shapes {
 }
 
 let _shape = new Shapes.Rectangule(2, 3).getArea();
+let area: IRectangule = new Shapes.Rectangule(2, 3);
+area.getArea();
