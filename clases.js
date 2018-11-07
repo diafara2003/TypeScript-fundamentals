@@ -9,3 +9,4 @@ var Operation = /** @class */ (function () {
     return Operation;
 }());
 var sum = new Operation(3, 4).getSuma();
+var sumArrow = new Operation(3, 4).SumaArrow();

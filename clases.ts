@@ -12,6 +12,10 @@ class Operation {
     getSuma(): Number {
         return this.num1 + this.num2;
     }
+
+    // SumaArrow = (): number => { return this.num2 + this.num1; }
+
 }
 
 let sum = new Operation(3, 4).getSuma();
+let sumArrow=new Operation(3,4).SumaArrow();
